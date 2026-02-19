@@ -28,6 +28,16 @@ import 'package:device_frame/src/devices/ios/iphone_16_pro/device.dart'
     as i_iphone_16_pro;
 import 'package:device_frame/src/devices/ios/iphone_16_pro_max/device.dart'
     as i_iphone_16_pro_max;
+import 'package:device_frame/src/devices/ios/iphone_16_pro_max_purple/device.dart'
+    as i_iphone_16_pro_max_purple;
+import 'package:device_frame/src/devices/ios/iphone_16_pro_max_lavender/device.dart'
+    as i_iphone_16_pro_max_lavender;
+import 'package:device_frame/src/devices/ios/iphone_16_pro_max_grey/device.dart'
+    as i_iphone_16_pro_max_grey;
+import 'package:device_frame/src/devices/ios/iphone_16_pro_max_green/device.dart'
+    as i_iphone_16_pro_max_green;
+import 'package:device_frame/src/devices/ios/iphone_16_pro_max_orange/device.dart'
+    as i_iphone_16_pro_max_orange;
 import 'package:device_frame/src/devices/ios/iphone_16_pro_purple/device.dart'
     as i_iphone_16_pro_purple;
 import 'package:device_frame/src/devices/ios/iphone_16_pro_lavender/device.dart'
@@ -70,6 +80,11 @@ class IosDevices {
   DeviceInfo get iPhone16Plus => i_iphone_16_plus.info;
   DeviceInfo get iPhone16Pro => i_iphone_16_pro.info;
   DeviceInfo get iPhone16ProMax => i_iphone_16_pro_max.info;
+  DeviceInfo get iPhone16ProMaxPurple => i_iphone_16_pro_max_purple.info;
+  DeviceInfo get iPhone16ProMaxLavender => i_iphone_16_pro_max_lavender.info;
+  DeviceInfo get iPhone16ProMaxGrey => i_iphone_16_pro_max_grey.info;
+  DeviceInfo get iPhone16ProMaxGreen => i_iphone_16_pro_max_green.info;
+  DeviceInfo get iPhone16ProMaxOrange => i_iphone_16_pro_max_orange.info;
   DeviceInfo get iPhone16ProPurple => i_iphone_16_pro_purple.info;
   DeviceInfo get iPhone16ProLavender => i_iphone_16_pro_lavender.info;
   DeviceInfo get iPhone16ProGrey => i_iphone_16_pro_grey.info;
@@ -105,6 +120,16 @@ class IosDevices {
         iPhone16ProGreen,
         iPhone16ProOrange,
         iPhone16ProMax,
+        iPhone16ProMaxPurple,
+        iPhone16ProMaxLavender,
+        iPhone16ProMaxGrey,
+        iPhone16ProMaxGreen,
+        iPhone16ProMaxOrange,
+        iPhone16ProMaxPurple,
+        iPhone16ProMaxLavender,
+        iPhone16ProMaxGrey,
+        iPhone16ProMaxGreen,
+        iPhone16ProMaxOrange,
         //Tablets
         iPadAir4,
         iPad,
