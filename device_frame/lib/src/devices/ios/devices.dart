@@ -28,6 +28,8 @@ import 'package:device_frame/src/devices/ios/iphone_16_pro/device.dart'
     as i_iphone_16_pro;
 import 'package:device_frame/src/devices/ios/iphone_16_pro_max/device.dart'
     as i_iphone_16_pro_max;
+import 'package:device_frame/src/devices/ios/iphone_16_pro_purple/device.dart'
+    as i_iphone_16_pro_purple;
 import 'package:device_frame/src/devices/ios/ipad_air_4/device.dart'
     as i_ipad_air_4;
 import 'package:device_frame/src/devices/ios/ipad/device.dart' as i_ipad;
@@ -60,6 +62,7 @@ class IosDevices {
   DeviceInfo get iPhone16Plus => i_iphone_16_plus.info;
   DeviceInfo get iPhone16Pro => i_iphone_16_pro.info;
   DeviceInfo get iPhone16ProMax => i_iphone_16_pro_max.info;
+  DeviceInfo get iPhone16ProPurple => i_iphone_16_pro_purple.info;
   DeviceInfo get iPadAir4 => i_ipad_air_4.info;
   DeviceInfo get iPad => i_ipad.info;
   DeviceInfo get iPadPro11Inches => i_ipad_pro_11inches.info;
@@ -84,6 +87,7 @@ class IosDevices {
         iPhone16,
         iPhone16Plus,
         iPhone16Pro,
+        iPhone16ProPurple,
         iPhone16ProMax,
         //Tablets
         iPadAir4,
